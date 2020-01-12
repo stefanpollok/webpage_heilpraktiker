@@ -21,12 +21,12 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.5);
-  background: whitesmoke;
+  background: black;
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 @media screen and (max-width: 992px) {
