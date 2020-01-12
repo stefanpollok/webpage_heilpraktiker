@@ -500,6 +500,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 18px;
+  line-height: 2;
 }
 
 h5, .h5 {
@@ -905,6 +906,11 @@ pre code {
 }
 .container-fluid:after {
   clear: both;
+}
+
+.main_text{
+  color: #ccc;
+  font-weight: 450;
 }
 
 .row {
