@@ -912,7 +912,29 @@ pre code {
   color: #ccc;
   font-weight: 300;
   font-size: 17px;
-  text-align:justify;
+  text-align: justify;
+}
+@media screen  and (max-width: 768px) {
+  .main_text {
+    text-align: left;
+  }
+}
+
+.img_col{
+  float: left; 
+  margin-top: 50px;
+}
+@media screen  and (max-width: 768px) {
+  .img_col {
+    margin-top: 20px;
+  }
+}
+@media screen  and (max-width: 550px) {
+  .img_col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: none;
+  }
 }
 
 .row {

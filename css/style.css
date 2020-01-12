@@ -141,11 +141,11 @@ figure figcaption {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   #fh5co-aside {
     width: 30%;
   }
-}
+} */
 @media screen and (max-width: 768px) {
   #fh5co-aside {
     width: 270px;
@@ -297,12 +297,12 @@ figure figcaption {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   #fh5co-main {
     width: 70%;
     height: 100%;
   }
-}
+} */
 @media screen and (max-width: 768px) {
   #fh5co-main {
     width: 100%;
