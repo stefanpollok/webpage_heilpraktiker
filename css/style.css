@@ -11,6 +11,10 @@
 *	Edit this section
 *
 * ======================================================= */
+html{
+  /* Full height */
+  height: 100%;
+}
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
@@ -18,6 +22,10 @@ body {
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.5);
   background: whitesmoke;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
