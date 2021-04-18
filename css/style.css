@@ -1217,4 +1217,37 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   opacity: 0;
 }
 
+.scroll-left {
+  height: 50px;	
+  overflow: hidden;
+  position: relative;
+  background: #F5B041;
+  color: #229954;
+  border: 3px solid #229954;
+}
+
+.scroll-left p {
+  position: absolute;
+  width: 350%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: left;
+  /* Starting position */
+  transform:translateX(0%);
+  /* Apply animation to this element */
+  animation: scroll-left 40s linear infinite;
+}
+
+/* Move it (define the animation) */
+@keyframes scroll-left {
+  0%   {
+  transform: translateX(10%); 		
+  }
+  100% {
+  transform: translateX(-75%);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
